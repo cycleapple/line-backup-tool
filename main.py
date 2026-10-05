@@ -508,6 +508,8 @@ if __name__ == "__main__":
     try:
         tool = LineBackupTool()
         tool.run()
+        # 保持窗口打開（用於 GUI 應用）
+        input("\n按 Enter 關閉程序...")
     except KeyboardInterrupt:
         print("\n\n⏹️  程序已停止")
         sys.exit(0)

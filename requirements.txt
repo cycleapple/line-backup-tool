@@ -1,0 +1,46 @@
+# LINE 備份工具依賴
+
+# 核心依賴
+# 大多數功能使用 Python 標準庫
+
+# 可選依賴
+# 如果需要以下功能，請取消註釋
+
+# 數據加密
+# cryptography>=3.4.8
+
+# Excel 導出支持
+# openpyxl>=3.7.0
+
+# PDF 導出支持
+# reportlab>=3.6.0
+
+# 自動化任務
+# schedule>=1.1.7
+
+# 郵件通知
+# python-dotenv>=0.19.0
+
+# 數據庫支持
+# sqlalchemy>=1.4.0
+
+# 進度條顯示
+# tqdm>=4.62.0
+
+# 日期時間處理
+# python-dateutil>=2.8.2
+
+# JSON 驗證
+# jsonschema>=4.0.0
+
+# 配置文件
+# pyyaml>=5.4.1
+
+# 圖形界面 (可選)
+# PyQt5>=5.15.0
+# tkinter (通常已包含在 Python 中)
+
+# 開發依賴
+# pytest>=6.2.4
+# black>=21.7b0
+# flake8>=3.9.2

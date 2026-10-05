@@ -1,0 +1,111 @@
+# 備份文件 - 不上傳到版本控制
+backups/
+backups/*
+!backups/.gitkeep
+
+# 日誌文件
+logs/
+logs/*
+!logs/.gitkeep
+
+# Python 相關
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-workspace
+*.sublime-project
+
+# 編輯器臨時文件
+*.bak
+*.tmp
+*.temp
+*.orig
+*~
+
+# 系統文件
+.DS_Store
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+
+# 加密/敏感文件
+*.key
+*.pem
+*.pfx
+.env
+.env.local
+.env.*.local
+secrets.json
+config.local.json
+
+# 編譯文件
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# 覆蓋率報告
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# tox
+.tox/
+.pytest_cache/
+
+# 錯誤日誌
+error.log
+
+# 編輯器特定
+.vscode/settings.json
+.vscode/launch.json
+.atom/
+
+# 臨時目錄
+.tmp/
+temp/
+
+# 大型文件（如果備份太大）
+*.iso
+*.zip
+*.tar.gz
+*.7z
+*.rar

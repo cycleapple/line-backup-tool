@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "backup_location": "./backups",
+  "auto_backup": false,
+  "backup_interval": 24,
+  "last_backup": null,
+  "last_room": null,
+  "backup_count": 0,
+  "language": "zh_TW",
+  "theme": "auto",
+  "notifications": true,
+  "compression": true,
+  "encryption": true,
+  "retention_days": 365
+}
